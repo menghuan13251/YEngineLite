@@ -12,8 +12,8 @@ public class AboutWindow : EditorWindow
     private GUIStyle _linkStyle;
 
     private const string LogoPath = "MyToolLogo"; // Logo图片在 "Editor/Resources" 文件夹下的名字 (不需要扩展名)
-    private const string WebsiteURL = "https://github.com/your-repo"; // 你的项目网址
-    private const string QQGroupURL = "https://qm.qq.com/cgi-bin/qm/qr?k=YOUR_KEY&jump_from=webapi"; // 你的QQ群加群链接
+    private const string WebsiteURL = "https://github.com/menghuan13251/YEngineLite"; // 你的项目网址
+    private const string QQGroupURL = "https://qm.qq.com/q/UVnaO2Nzi2"; // 你的QQ群加群链接
 
     // 在顶部菜单栏创建一个入口 "Tools/About My Tool"
     [MenuItem("YEngine/关于YEngine")]
