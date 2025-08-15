@@ -1,0 +1,53 @@
+{
+    "FileList": [
+        {
+            "file": "atlas_sprite.ab",
+            "manifest": {
+                "md5": "834e05903a317edcaed6f9223869b4fa",
+                "size": 175955
+            }
+        },
+        {
+            "file": "audio.ab",
+            "manifest": {
+                "md5": "7dcdd3a7b4cfa6818d8fa0303a86ccbb",
+                "size": 1170
+            }
+        },
+        {
+            "file": "configs.ab",
+            "manifest": {
+                "md5": "3bd06383c3229a850801477bf797c5d2",
+                "size": 2039
+            }
+        },
+        {
+            "file": "Hotfix.dll",
+            "manifest": {
+                "md5": "1d905b8bd3e4c386120f1dfb10e93ec1",
+                "size": 18944
+            }
+        },
+        {
+            "file": "HotfixOutput",
+            "manifest": {
+                "md5": "bfe4c4c6766dea97d122ccf2b5ad2111",
+                "size": 1168
+            }
+        },
+        {
+            "file": "prefabs.ab",
+            "manifest": {
+                "md5": "d2f9daf3c947178fd9b9924866a04ae9",
+                "size": 2356
+            }
+        },
+        {
+            "file": "scenes.ab",
+            "manifest": {
+                "md5": "6966cc7cda10405f12df7aa714e3660e",
+                "size": 79503
+            }
+        }
+    ]
+}

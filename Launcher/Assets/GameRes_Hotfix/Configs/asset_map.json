@@ -1,0 +1,64 @@
+{
+    "AssetMapList": [
+        {
+            "path": "Assets/GameRes_Hotfix/Audio/New Prefab.prefab",
+            "abName": "audio.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Configs/asset_map.json",
+            "abName": "configs.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Configs/FrameworkConfig.asset",
+            "abName": "configs.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Configs/res_db.json",
+            "abName": "configs.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Configs/scene_map.json",
+            "abName": "configs.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Prefabs/UI_Main.prefab",
+            "abName": "prefabs.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Scenes/MainScene.unity",
+            "abName": "scenes.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/2021-05-26 002829.jpg",
+            "abName": "atlas_sprite.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/button_ready_off.png",
+            "abName": "atlas_sprite.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/Exp_line.png",
+            "abName": "atlas_sprite.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/Hp_frame.png",
+            "abName": "atlas_sprite.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/Hp_line.png",
+            "abName": "atlas_sprite.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/Mini_background.png",
+            "abName": "atlas_sprite.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/M_line.png",
+            "abName": "atlas_sprite.ab"
+        },
+        {
+            "path": "Assets/GameRes_Hotfix/Atlas/Sprite/Tips_bk_2.png",
+            "abName": "atlas_sprite.ab"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 1249335066
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: audio.ab
+      Dependencies: {}
+    Info_1:
+      Name: configs.ab
+      Dependencies: {}
+    Info_2:
+      Name: prefabs.ab
+      Dependencies:
+        Dependency_0: atlas_sprite.ab
+    Info_3:
+      Name: scenes.ab
+      Dependencies:
+        Dependency_0: atlas_sprite.ab
+    Info_4:
+      Name: atlas_sprite.ab
+      Dependencies: {}

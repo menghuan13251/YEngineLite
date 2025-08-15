@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97db68d13fbe4cf4cb306778b35b9f30, type: 3}
+  m_Name: FrameworkConfig
+  m_EditorClassIdentifier: 
+  ServerUrl: http://192.168.1.37:8088/Demo/Windows64
+  IncludeHotfixDllInFirstPack: 1
+  FirstPackABNames:
+  - configs.ab
+  AotMetaAssemblyFiles:
+  - mscorlib.dll
+  - System.dll
+  - System.Core.dll
+  - UnityEngine.CoreModule.dll

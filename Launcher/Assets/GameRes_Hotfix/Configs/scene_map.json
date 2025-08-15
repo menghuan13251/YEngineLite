@@ -1,0 +1,20 @@
+{
+    "SceneMapsList": [
+        {
+            "SceneName": "MainScene",
+            "HotfixScripts": [
+                {
+                    "GameObjectName": "Canvas",
+                    "ScriptName": "Swap",
+                    "FieldReferences": [
+                        {
+                            "FieldName": "content",
+                            "RefType": 0,
+                            "Value": "Canvas"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

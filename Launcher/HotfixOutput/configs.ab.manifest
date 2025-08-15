@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 2214910621
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 62d3206e26629619a2e3847af5ca93f1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 13eaa7487581253e4220b504d7a3c71a
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 62d3206e26629619a2e3847af5ca93f1
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 97db68d13fbe4cf4cb306778b35b9f30, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameRes_Hotfix/Configs/FrameworkConfig.asset
+- Assets/GameRes_Hotfix/Configs/res_db.json
+- Assets/GameRes_Hotfix/Configs/scene_map.json
+- Assets/GameRes_Hotfix/Configs/asset_map.json
+Dependencies: []

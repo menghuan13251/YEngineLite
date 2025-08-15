@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 449562813
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4e8b2da00e8dbf9914b6cf0b58d5421
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f267fd2d8bcb1179236b6179ac5313bc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a4e8b2da00e8dbf9914b6cf0b58d5421
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameRes_Hotfix/Atlas/Sprite/2021-05-26 002829.jpg
+- Assets/GameRes_Hotfix/Atlas/Sprite/Tips_bk_2.png
+- Assets/GameRes_Hotfix/Atlas/Sprite/Hp_frame.png
+- Assets/GameRes_Hotfix/Atlas/Sprite/button_ready_off.png
+- Assets/GameRes_Hotfix/Atlas/Sprite/Exp_line.png
+- Assets/GameRes_Hotfix/Atlas/Sprite/M_line.png
+- Assets/GameRes_Hotfix/Atlas/Sprite/Mini_background.png
+- Assets/GameRes_Hotfix/Atlas/Sprite/Hp_line.png
+Dependencies: []

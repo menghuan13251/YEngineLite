@@ -1,0 +1,22 @@
+ManifestFileVersion: 0
+CRC: 3108351292
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7df0d4ed758bd17e4ac9f7480dddaab0
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ae8c52309304dbced62e9359e7a02dec
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 7df0d4ed758bd17e4ac9f7480dddaab0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameRes_Hotfix/Audio/New Prefab.prefab
+Dependencies: []

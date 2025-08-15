@@ -1,0 +1,64 @@
+{
+    "ResMapList": [
+        {
+            "res": "New Prefab",
+            "path": "Audio/New Prefab.prefab"
+        },
+        {
+            "res": "asset_map",
+            "path": "Configs/asset_map.json"
+        },
+        {
+            "res": "FrameworkConfig",
+            "path": "Configs/FrameworkConfig.asset"
+        },
+        {
+            "res": "res_db",
+            "path": "Configs/res_db.json"
+        },
+        {
+            "res": "scene_map",
+            "path": "Configs/scene_map.json"
+        },
+        {
+            "res": "UI_Main",
+            "path": "Prefabs/UI_Main.prefab"
+        },
+        {
+            "res": "MainScene",
+            "path": "Scenes/MainScene.unity"
+        },
+        {
+            "res": "2021-05-26 002829",
+            "path": "Atlas/Sprite/2021-05-26 002829.jpg"
+        },
+        {
+            "res": "button_ready_off",
+            "path": "Atlas/Sprite/button_ready_off.png"
+        },
+        {
+            "res": "Exp_line",
+            "path": "Atlas/Sprite/Exp_line.png"
+        },
+        {
+            "res": "Hp_frame",
+            "path": "Atlas/Sprite/Hp_frame.png"
+        },
+        {
+            "res": "Hp_line",
+            "path": "Atlas/Sprite/Hp_line.png"
+        },
+        {
+            "res": "Mini_background",
+            "path": "Atlas/Sprite/Mini_background.png"
+        },
+        {
+            "res": "M_line",
+            "path": "Atlas/Sprite/M_line.png"
+        },
+        {
+            "res": "Tips_bk_2",
+            "path": "Atlas/Sprite/Tips_bk_2.png"
+        }
+    ]
+}
