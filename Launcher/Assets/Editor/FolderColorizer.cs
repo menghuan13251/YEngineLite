@@ -1,6 +1,3 @@
-// Editor/FolderColorizer.cs
-// 一个轻量、零依赖的文件夹着色与说明工具 (最终稳定版)
-
 using UnityEditor;
 using UnityEngine;
 using System.Collections.Generic;

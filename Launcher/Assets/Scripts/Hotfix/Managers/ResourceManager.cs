@@ -1,6 +1,3 @@
-// Assets/Scripts/Hotfix/ResourceManager.cs
-// 【最终根除编译错误版】修正了所有异步加载和C#语法兼容性问题
-
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -23,7 +20,7 @@ public class ResourceManager
     private Dictionary<string, AssetBundle> _abCache = new Dictionary<string, AssetBundle>();
     private Dictionary<string, string> _assetPathToABNameMap = new Dictionary<string, string>();
     private Dictionary<string, string> _resNameToPathMap = new Dictionary<string, string>();
-    // 【添加】下面这行代码
+    
     private AssetBundleManifest _manifest = null;
     public void Init()
     {
@@ -33,7 +30,7 @@ public class ResourceManager
         CurrentLoadMode = LoadMode.AssetBundle;
 #endif
         if (CurrentLoadMode == LoadMode.AssetBundle)
-        { // 【修改】调整加载顺序，第一步必须是加载总清单
+        { 
             LoadAssetBundleManifest();
             LoadAssetMap();
             LoadResDB();
@@ -138,10 +135,10 @@ public class ResourceManager
         }
 #endif
 
-        // 【核心修正】调用带依赖处理的加载方法
+        
         string sceneABName;
         _assetPathToABNameMap.TryGetValue(sceneFullPath, out sceneABName);
-        LoadAssetBundleWithDependencies(sceneABName); // <--- 原来这里调用的是不带依赖的 LoadAssetBundleFromFile
+        LoadAssetBundleWithDependencies(sceneABName); 
 
         SceneManager.LoadScene(sceneName, mode);
     }
@@ -161,10 +158,10 @@ public class ResourceManager
             return;
         }
 #endif
-        // 【核心修正】调用带依赖处理的异步加载方法
+        
         string sceneABName;
         _assetPathToABNameMap.TryGetValue(sceneFullPath, out sceneABName);
-        await LoadAssetBundleWithDependenciesAsync(sceneABName); // <--- 关键修改
+        await LoadAssetBundleWithDependenciesAsync(sceneABName); 
 
         AsyncOperation sceneOp = SceneManager.LoadSceneAsync(sceneName, mode);
         while (!sceneOp.isDone)
@@ -245,10 +242,10 @@ public class ResourceManager
         return await LoadAssetFromABAsync<T>(abName, fullProjectPath);
     }
 
-    // 替换掉旧的 LoadAssetFromAB
+    
     private T LoadAssetFromAB<T>(string abName, string assetPath) where T : UnityEngine.Object
     {
-        // 【修改】现在调用带依赖处理的加载方法
+        
         LoadAssetBundleWithDependencies(abName);
 
         // 从缓存中获取已加载的AB包
@@ -259,7 +256,7 @@ public class ResourceManager
         }
         Debug.LogError($"[ResourceManager] AB包加载后，在缓存中依然找不到: {abName}");
         return null;
-    }// 这是新的、带依赖处理的核心方法 (由旧的 LoadAssetBundleFromFile 改名并增强而来)
+    }
     private void LoadAssetBundleWithDependencies(string abName)
     {
         if (string.IsNullOrEmpty(abName)) return;
@@ -287,7 +284,7 @@ public class ResourceManager
         LoadAssetBundleFromFileInternal(abName);
     }
 
-    // 这是新的、最底层的、只负责从文件加载的方法
+    
     private AssetBundle LoadAssetBundleFromFileInternal(string abName)
     {
         if (string.IsNullOrEmpty(abName)) return null;
@@ -307,7 +304,7 @@ public class ResourceManager
 
     private async Task<T> LoadAssetFromABAsync<T>(string abName, string assetPath) where T : UnityEngine.Object
     {
-        // 【修改】调用带依赖处理的异步加载方法
+        
         await LoadAssetBundleWithDependenciesAsync(abName);
 
         AssetBundle targetAB;

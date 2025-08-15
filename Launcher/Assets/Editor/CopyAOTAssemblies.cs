@@ -1,6 +1,3 @@
-// Editor/CopyAOTAssemblies.cs
-// 【最终修正版】不再引用Launcher，而是直接加载FrameworkConfig
-
 using System.IO;
 using UnityEditor;
 using UnityEditor.Build;
@@ -72,7 +69,7 @@ public class CopyAOTAssemblies : IPreprocessBuildWithReport
             Directory.CreateDirectory(aotAssembliesDstDir);
         }
 
-        // 【核心修正】从加载到的Config对象中获取AOT DLL列表
+       
         foreach (var dll in Config.AotMetaAssemblyFiles)
         {
             string srcDllPath = Path.Combine(aotAssembliesSrcDir, dll);

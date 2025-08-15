@@ -45,7 +45,7 @@ public static class SceneDropdownToolbar
         var root = (VisualElement)toolbar.GetType().GetField("m_Root", BindingFlags.Instance | BindingFlags.NonPublic)?.GetValue(toolbar);
         if (root == null) return;
 
-        // --- 核心修正：找到播放按钮组的容器 "Play" ---
+        
         var playZone = root.Q("Step");
         if (playZone == null || playZone.parent == null) return;
 
@@ -63,7 +63,7 @@ public static class SceneDropdownToolbar
                 _imgui.style.alignSelf = Align.Center;
                 _imgui.style.flexShrink = 0;
 
-                // --- 这是最终的、正确的插入逻辑 ---
+                
                 // 1. 找到 "Play" 元素在它父容器中的索引位置
                 int playZoneIndex = playZone.parent.IndexOf(playZone);
 
@@ -98,7 +98,7 @@ public static class SceneDropdownToolbar
 
         using (new EditorGUI.DisabledScope(EditorApplication.isCompiling))
         {
-            // 修改点3：添加 GUILayout.Width() 来固定按钮宽度
+            
             if (GUILayout.Button(_btnContent, EditorStyles.toolbarDropDown, GUILayout.Width(100), GUILayout.Height(22)))
             {
                 ShowMenu();
@@ -106,7 +106,7 @@ public static class SceneDropdownToolbar
         }
     }
 
-    // ... 其他方法 (ShowMenu, RefreshScenes, PingActiveSceneAsset, SwitchScene, OpenScene) 保持不变 ...
+    
 
     private static void ShowMenu()
     {

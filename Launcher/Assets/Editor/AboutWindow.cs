@@ -1,7 +1,4 @@
-﻿// Editor/AboutWindow.cs
-// 一个包含图片、文字和链接的自定义 "关于" 窗口。
-
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
 public class AboutWindow : EditorWindow
@@ -11,11 +8,11 @@ public class AboutWindow : EditorWindow
     private GUIStyle _bodyStyle;
     private GUIStyle _linkStyle;
 
-    private const string LogoPath = "MyToolLogo"; // Logo图片在 "Editor/Resources" 文件夹下的名字 (不需要扩展名)
-    private const string WebsiteURL = "https://github.com/menghuan13251/YEngineLite"; // 你的项目网址
-    private const string QQGroupURL = "https://qm.qq.com/q/UVnaO2Nzi2"; // 你的QQ群加群链接
+    private const string LogoPath = "MyToolLogo"; 
+    private const string WebsiteURL = "https://github.com/menghuan13251/YEngineLite"; 
+    private const string QQGroupURL = "https://qm.qq.com/q/UVnaO2Nzi2"; 
 
-    // 在顶部菜单栏创建一个入口 "Tools/About My Tool"
+   
     [MenuItem("YEngine/关于YEngine")]
     public static void ShowWindow()
     {
@@ -130,7 +127,7 @@ public class AboutWindow : EditorWindow
         GUILayout.FlexibleSpace();
 
         // 绘制一个底部信息
-        EditorGUILayout.LabelField("© 2024 Your Name", EditorStyles.centeredGreyMiniLabel);
+        EditorGUILayout.LabelField("© 2024 YEngine", EditorStyles.centeredGreyMiniLabel);
 
         GUILayout.Space(5);
 

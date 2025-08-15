@@ -1,4 +1,3 @@
-// Assets/Scripts/AOT/HotfixStub.cs
 // 【新脚本】所有存根脚本的基类
 
 using UnityEngine;

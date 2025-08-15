@@ -1,6 +1,3 @@
-// Assets/Scripts/Hotfix/HotfixEntry.cs
-// 【最终加固版】
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Reflection;
@@ -53,7 +50,7 @@ public class HotfixEntry : MonoBehaviour
             GameObject targetGO = stub.gameObject;
             string hotfixClassName = stub.HotfixScriptFullName;
 
-            // 【核心修正】在这里进行最终的防御性检查
+           
             if (string.IsNullOrEmpty(hotfixClassName))
             {
                 Debug.LogWarning($"在对象 '{targetGO.name}' 上发现一个数据不完整的存根，已跳过。", targetGO);

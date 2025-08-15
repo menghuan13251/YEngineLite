@@ -1,4 +1,3 @@
-// Assets/Scripts/AOT/FrameworkConfig.cs
 using System.Collections.Generic;
 using UnityEngine;
 

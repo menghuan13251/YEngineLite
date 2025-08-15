@@ -1,5 +1,4 @@
-// Assets/Scripts/Hotfix/GameEntry.cs
-// 【最终版】负责启动第一个场景
+// 负责启动第一个场景
 using UnityEngine;
 using System.Reflection;
 

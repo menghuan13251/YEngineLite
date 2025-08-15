@@ -1,7 +1,3 @@
-// Assets/Scripts/AOT/Launcher.cs
-// 【最终的、绝对完整的、无删减版】
-// 回归最简单的首次解压和版本比对逻辑
-
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -209,8 +205,7 @@ public class Launcher : MonoBehaviour
         await File.WriteAllTextAsync(localManifestPath, serverManifestJson);
     }
 
-    // 您的 Launcher.cs 中
-    // ... using System.Reflection; // 确保顶部有这个 using
+ 
 
     private async Task LoadGame()
     {
@@ -228,7 +223,7 @@ public class Launcher : MonoBehaviour
         byte[] dllBytes = File.ReadAllBytes(hotfixDllPath);
         Assembly hotfixAssembly = Assembly.Load(dllBytes);
 
-        // 【核心修正】调用新的 StartGame(Assembly) 方法
+        
         System.Type entryType = hotfixAssembly.GetType("GameEntry");
         MethodInfo entryMethod = entryType?.GetMethod("StartGame", new System.Type[] { typeof(Assembly) });
         if (entryMethod != null)

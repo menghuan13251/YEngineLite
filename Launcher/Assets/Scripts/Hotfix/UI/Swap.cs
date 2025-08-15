@@ -1,10 +1,7 @@
-// Assets/Scripts/Hotfix/Swap.cs
-// 【最终纯净版】直接继承 MonoBehaviour
-
 using UnityEngine;
 using UnityEngine.UI;
 
-// 【核心修正】直接继承 MonoBehaviour
+
 public class Swap : MonoBehaviour
 {
     // 您的所有 public 或 [SerializeField] 字段，都会被自动注入

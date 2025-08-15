@@ -1,7 +1,4 @@
-﻿// Editor/YEngineBuilder.cs
-// 【终极完整版】一个按钮，幂等操作，无副作用，逻辑正确
-
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 using System.IO;
 using System.Linq;

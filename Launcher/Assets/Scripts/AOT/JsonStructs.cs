@@ -1,6 +1,3 @@
-// Assets/Scripts/AOT/JsonStructs.cs
-// 【最终简化版】移除了不再需要的SceneScriptMap相关结构
-
 using System.Collections.Generic;
 using System;
 

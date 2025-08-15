@@ -1,5 +1,4 @@
-// Assets/Scripts/AOT/AsyncOperationExtensions.cs
-// 【全新核心工具】将所有Unity的AsyncOperation转换为可等待的Task
+//将所有Unity的AsyncOperation转换为可等待的Task
 
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;

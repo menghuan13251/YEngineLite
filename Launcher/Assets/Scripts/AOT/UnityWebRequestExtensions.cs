@@ -1,4 +1,3 @@
-// Assets/Scripts/AOT/UnityWebRequestExtensions.cs
 using System;
 using System.Collections;
 using System.Threading.Tasks;
