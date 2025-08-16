@@ -4,7 +4,7 @@
 ![Unity Version](https://img.shields.io/badge/Unity-2021.3%2B-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-[![Docs](https://img.shields.io/badge/Documentation-View%20Online-blue)](https://gitee.com/your-name/your-repo/wikis)
+[![Docs](https://img.shields.io/badge/Documentation-View%20Online-blue)](https://github.com/menghuan13251/YEngineLite/blob/main/%E9%A1%B9%E7%9B%AE%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B.docx)
 [![QQ群](https://img.shields.io/badge/加入-QQ群-blueviolet)](https://qm.qq.com/q/UVnaO2Nzi2)
 
 欢迎使用 YEngine！这是一款基于 [HybridCLR](https://hybridclr.doc.code-philosophy.com/) 的 Unity 热更新框架，旨在提供一个清晰、高效、易于上手的开发环境。无论你是初次接触热更新，还是经验丰富的老手，YEngine 都能帮助你快速构建可热更新的项目。
