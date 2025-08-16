@@ -1,3 +1,2 @@
-*.js linguist-language=.cpp
-*.css linguist-language=.cpp
-*.html linguist-language=.cpp
+*.cpp linguist-vendored=true
+*.py linguist-detectable=true
