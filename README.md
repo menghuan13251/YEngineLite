@@ -131,4 +131,4 @@ A: 这些目录包含了框架的运行核心。修改它们可能会导致热�
 
 ---
 🟢捐赠作者🟢
-![Image](https://github.com/user-attachments/assets/168c9a95-3f16-4388-93c7-1ee95cdc274e)![Image](https://github.com/user-attachments/assets/a56d6f2c-072a-4b9f-b18d-9775c485a7a5)
+![Image](https://github.com/user-attachments/assets/5f4ffab3-c976-4e08-86e6-f7997685ab41)![Image](https://github.com/user-attachments/assets/a56d6f2c-072a-4b9f-b18d-9775c485a7a5)
