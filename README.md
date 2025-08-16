@@ -113,7 +113,7 @@ Assets/
     -   将编译好的 `hotfix.dll` 和打包好的 AssetBundles 复制到 `StreamingAssets` 目录，准备随安装包一起发布。
 
 5.  **构建应用程序**:
-    -   最后，调用 Unity 的 `BuildPlayer` 接口，生成最终的 .apk, .ipa 或 .exe 文件。
+    -   最后，调用 Unity 的 `BuildPlayer` 接口，生成最终的.exe 文件。
 
 ## 常见问题 (FAQ)
 
