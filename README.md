@@ -4,7 +4,7 @@
 ![Unity Version](https://img.shields.io/badge/Unity-2021.3%2B-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-[![Docs](https://img.shields.io/badge/Documentation-View%20Online-blue?style=for-the-badge)](https://gitee.com/your-name/your-repo/wikis)
+[![Docs](https://img.shields.io/badge/Documentation-View%20Online-blue)](https://gitee.com/your-name/your-repo/wikis)
 [![QQ群](https://img.shields.io/badge/加入-QQ群-blueviolet)](https://qm.qq.com/q/UVnaO2Nzi2)
 
 欢迎使用 YEngine！这是一款基于 [HybridCLR](https://hybridclr.doc.code-philosophy.com/) 的 Unity 热更新框架，旨在提供一个清晰、高效、易于上手的开发环境。无论你是初次接触热更新，还是经验丰富的老手，YEngine 都能帮助你快速构建可热更新的项目。
@@ -45,12 +45,14 @@
       
     *(提示: 你可以将你的打包工具截图，然后替换上面的图片链接，让文档更生动)*
 
-就是这么简单！框架会自动处理后续所有复杂的流程。
 4.  **热更流程**:
     使用unity打包发布成exe，然后修改你的项目，再次执行3.  **执行打包流程**:，再次打开你打包得exe就可以发现热更已完成！
 
  5.  **注意事项**:
      上述所有操作仅限于在此项目内进行，如果你要是把项目文件导入你的项目需要进行一次完整的流程操作，具体流程可查看【项目搭建流程.docx】
+
+     
+就是这么简单！框架会自动处理后续所有复杂的流程。
 ## 📂 目录结构详解
 
 为了让您更好地理解框架的工作方式，以下是详细的目录结构说明。我们使用了 Emoji 来表示不同目录的用途和权限：
