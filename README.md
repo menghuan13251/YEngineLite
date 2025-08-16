@@ -1,7 +1,3 @@
-[![B站视频](https://www.bilibili.com/video/BV15hYvzREfU/?share_source=copy_web&vd_source=1a86cf8af853611f2fe5c667035553fb)](https://www.bilibili.com/video/BV15hYvzREfU/?share_source=copy_web&vd_source=1a86cf8af853611f2fe5c667035553fb)
-
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115038199288738&bvid=BV15hYvzREfU&cid=31738233452&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-
 ![Image](https://github.com/user-attachments/assets/b894b9ab-0d31-4fec-a5b8-e969590fe206)
 # YEngine - 一款一键式傻瓜操作的 Unity 热更新框架
 
@@ -10,6 +6,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 [![Docs](https://img.shields.io/badge/Documentation-View%20Online-blue)](https://github.com/menghuan13251/YEngineLite/blob/main/%E9%A1%B9%E7%9B%AE%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B.docx)
 [![QQ群](https://img.shields.io/badge/加入-QQ群-blueviolet)](https://qm.qq.com/q/UVnaO2Nzi2)
+[![B站视频](https://img.shields.io/badge/YEngine - 一键式 Unity 热更新框架-blueviolet)](https://www.bilibili.com/video/BV15hYvzREfU/?share_source=copy_web&vd_source=1a86cf8af853611f2fe5c667035553fb)
 
 欢迎使用 YEngine！这是一款基于 [HybridCLR](https://hybridclr.doc.code-philosophy.com/) 的 Unity 热更新框架，旨在提供一个清晰、高效、易于上手的开发环境。无论你是初次接触热更新，还是经验丰富的老手，YEngine 都能帮助你快速构建可热更新的项目。
 
