@@ -1,10 +1,11 @@
 ![Image](https://github.com/user-attachments/assets/b894b9ab-0d31-4fec-a5b8-e969590fe206)
-# YEngine - 一款轻量且强大的 Unity 热更新框架
+# YEngine - 一款一键式傻瓜操作的 Unity 热更新框架
 
 ![Unity Version](https://img.shields.io/badge/Unity-2021.3%2B-blueviolet)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
-
+[![Docs](https://img.shields.io/badge/Documentation-View%20Online-blue?style=for-the-badge)](https://gitee.com/your-name/your-repo/wikis)
+[![QQ群](https://img.shields.io/badge/Documentation-View%20Online-blue?style=for-the-badge)](https://qm.qq.com/q/UVnaO2Nzi2)
 欢迎使用 YEngine！这是一款基于 [HybridCLR](https://hybridclr.doc.code-philosophy.com/) 的 Unity 热更新框架，旨在提供一个清晰、高效、易于上手的开发环境。无论你是初次接触热更新，还是经验丰富的老手，YEngine 都能帮助你快速构建可热更新的项目。
 
 ## ✨ 核心特性
@@ -38,13 +39,17 @@
     ```
 
 3.  **执行打包流程**:
-    打开 Unity 编辑器，从顶部菜单栏选择 `YEngine/Build`，然后根据您的需求执行相应的构建选项（如编译热更DLL、打包资源、构建完整包等）。
+    打开 Unity 编辑器，从顶部菜单栏选择 `YEngine/---【一键打包】---`，然后等待片刻热更资源文件夹HotfixOutput会自动打开，此时你只需要把HotfixOutput文件夹内的所有内容复制到你的服务器指定文件夹即可，例如：（http://192.168.1.37:8088/Demo/Windows64）。
 
       
     *(提示: 你可以将你的打包工具截图，然后替换上面的图片链接，让文档更生动)*
 
 就是这么简单！框架会自动处理后续所有复杂的流程。
+4.  **热更流程**:
+    使用unity打包发布成exe，然后修改你的项目，再次执行3.  **执行打包流程**:，再次打开你打包得exe就可以发现热更已完成！
 
+ 5.  **注意事项**:
+     上述所有操作仅限于在此项目内进行，如果你要是把项目文件导入你的项目需要进行一次完整的流程操作，具体流程可查看【项目搭建流程.docx】
 ## 📂 目录结构详解
 
 为了让您更好地理解框架的工作方式，以下是详细的目录结构说明。我们使用了 Emoji 来表示不同目录的用途和权限：
@@ -58,14 +63,15 @@
 ```
 Assets/
 ├── 📂 Editor/
-│   └── 📜 YEngineBuilder.cs      # 核心构建工具，集成所有打包流程
+│   └── 📜 YEngineBuilder.cs      # 🔴核心构建工具，集成所有打包流程
 │
 ├── 📂 Scenes/
-│   └── 🟡 Main.unity             # 主入口场景，负责启动热更流程 (请勿修改)
+│   └── 🟡 Main.unity             # 🔴主入口场景，负责启动热更流程 (请勿修改)
 │
 ├── 📂 GameRes_Hotfix/             # 🟢 所有热更新资源的大本营 (开发者主要工作区)
 │   ├── 📂 Scenes/                 #   你的游戏场景
 │   ├── 📂 Prefabs/                #   你的预制体
+│   ├── 📂 Configs/                #   🔴打包构建的配置文件夹
 │   └── 📂 ... (其他)             #   你可以自由创建子目录来组织资源
 │
 ├── 📂 HybridCLRGenerate/          # 🔴 HybridCLR 自动生成文件目录 (请勿修改)
@@ -122,5 +128,3 @@ A: 这些目录包含了框架的运行核心。修改它们可能会导致热�
 
 ---
 
-希望这份文档能帮助您快速上手 YEngine！祝您开发愉快！
-感谢您使用本工具！这是一个轻量、高效的热更插件，旨在帮助您提高开发效率。\n使用方法：①YEngine/---【一键打包】---（打包成功弹出热更包文件夹）②复制HotfixOutput文件夹内的所有文件到服务器（示例：http://192.168.1.37:8088/Demo/Windows64）文件夹③打包你的exe运行④修改你的游戏项目再次重复①②然后运行exe成功热更。\n注意：标注颜色和说明的文件夹勿动！如需修改YEngine引擎系统请谨慎修改！！！\n如果您有任何问题或建议，欢迎通过以下方式联系我们。【访问项目主页 (GitHub)查看详细使用方法】
