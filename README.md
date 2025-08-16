@@ -1,6 +1,3 @@
-## 技术栈
-- C#
-- .NET Framework / .NET Core / .NET 5+ (根据你使用的版本)
 ![Image](https://github.com/user-attachments/assets/b894b9ab-0d31-4fec-a5b8-e969590fe206)
 # YEngine - 一款一键式傻瓜操作的 Unity 热更新框架
 
