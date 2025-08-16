@@ -1,1 +1,21 @@
-* text=C#
+# 完全禁用其他语言检测
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.cc linguist-detectable=false
+*.cxx linguist-detectable=false
+*.c linguist-detectable=false
+
+# 强制所有C#相关文件被识别
+*.cs linguist-detectable=true
+*.cs linguist-language=C#
+*.cs linguist-vendored=false
+
+# 标记C#项目文件为C#语言
+*.csproj linguist-language=C#
+*.sln linguist-language=C#
+*.csx linguist-language=C#
+*.config linguist-language=C#
+
+# 可选：如果有其他类型文件也标记为C#（极端情况）
+* linguist-detectable=false
+*.cs linguist-detectable=true
