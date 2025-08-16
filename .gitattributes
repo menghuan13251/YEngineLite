@@ -1,2 +1,2 @@
-*.cpp linguist-vendored=true
+*.net linguist-vendored=true
 *.py linguist-detectable=true
