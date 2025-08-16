@@ -1,9 +1,5 @@
 # 忽略指定文件的语言检测
-*.net linguist-vendored=true
-
-# 确保Python文件可被检测
-*.py linguist-detectable=true
-
+*.net linguist-detectable=true
 # 确保C#文件可被检测并指定为C#语言
 *.cs linguist-detectable=true
 *.cs linguist-language=C#
